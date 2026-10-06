@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinator Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coordinator Counter</h1>
+        <div class="counter-display" id="counter">0</div>
+        <div class="button-group">
+            <button id="decrement-btn" title="Decrease counter (Keyboard: -)">- Decrement</button>
+            <button id="reset-btn" title="Reset counter (Keyboard: r)">Reset</button>
+            <button id="increment-btn" title="Increase counter (Keyboard: +)">+ Increment</button>
+        </div>
+        <p class="hints">Keyboard shortcuts: <strong>+</strong> (Increment), <strong>-</strong> (Decrement), <strong>r</strong> (Reset)</p>
+        <p class="status-line" aria-live="polite" id="last-action">Last action: None</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
